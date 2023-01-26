@@ -1,6 +1,7 @@
 /* Css Variables */
 :root {
   --clr-primary-darkcyan: hsl(158, 36%, 37%);
+  --clr-primary-darkcyanhover:hsl(158, 36%, 20%);
   --clr-primary-cream: hsl(30, 38%, 92%);
   --clr-neutral-darkblue: hsl(212, 21%, 14%);
   --clr-neutral-darkgrayishblue: hsl(228, 12%, 48%);
@@ -149,6 +150,9 @@ body{
     display: flex;
     gap: 1rem;
     justify-content: center;
+}
+.button:hover{
+  background-color: var(--clr-primary-darkcyanhover)
 }
 @media only screen and (min-width: 750px) {
     .product {
